@@ -8,7 +8,7 @@
             "name": "(gdb) Iniciar",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/{workspaceFolder}.out.",
+            "program": "${workspaceFolder}/exe/${workspaceFolderBasename}",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",

@@ -9,7 +9,7 @@
 				"-g",
 				"HelloWorld.c",//"${file}",
 				"-o",
-				"exe/HelloWorld"//"${fileDirname}/${fileBasenameNoExtension}"
+				"exe/AdvancedC"//"${fileDirname}/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
