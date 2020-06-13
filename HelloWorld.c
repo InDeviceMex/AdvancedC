@@ -9,5 +9,6 @@ typedef enum
 int main (void)
 {
     printf("Hello World\n\r");
+    printf("First Prject\n\r");
     return  MAIN_enOK;
 }
