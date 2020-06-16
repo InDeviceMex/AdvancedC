@@ -15,10 +15,14 @@ int main (void)
     uint32_t u32Number=0;
     auto int32_t s32LocalValue=0;
     s32LocalValue = APP__s32GetFavortiteNumber();
-    u32Number = ISOLATED_u32Number();
+    APP__s32MoveValue = ISOLATED_u32Number();
     APP__s32MoveValue+=s32LocalValue;
     printf("Hello World\n\r");
     printf("My Favorite Number is: %d\n\r",s32LocalValue);
     printf("My Favorite Number is: %d\n\r",APP__s32MoveValue);
+   
+   
+    s32LocalValue = APP__s32GetFavortiteNumber();
+    printf("My Favorite Number is: %d\n\r",s32LocalValue);
     return  MAIN_enSTATUS_OK;
 }
