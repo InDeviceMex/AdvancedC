@@ -9,6 +9,7 @@
 				"-g",
 				"Source/main.c",//"${file}",
 				"Source/app.c",//"${file}",
+				"Source/isolated.c",//"${file}",
 				"-o",
 				"exe/AdvancedC"//"${fileDirname}/${fileBasenameNoExtension}"
 			],
