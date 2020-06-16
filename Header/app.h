@@ -10,7 +10,9 @@ typedef enum
     APP_enSTATUS_ERROR =1,
 }APP_nSTATUS;
 
-int32_t APP_s32GetFavortiteNumber(void);
+//int32_t APP__s32MoveValue;
+
+int32_t APP__s32GetFavortiteNumber(void);
 
 
 #endif //APP_H_INCLUDED
