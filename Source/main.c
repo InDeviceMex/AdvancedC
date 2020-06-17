@@ -14,12 +14,15 @@ int main (void)
     extern int32_t APP__s32MoveValue;
     uint32_t u32Number=0;
     auto int32_t s32LocalValue=0;
+    register uint8_t u8Register=0;
+
     s32LocalValue = APP__s32GetFavortiteNumber();
     APP__s32MoveValue = ISOLATED_u32Number();
     APP__s32MoveValue+=s32LocalValue;
     printf("Hello World\n\r");
     printf("My Favorite Number is: %d\n\r",s32LocalValue);
     printf("My Favorite Number is: %d\n\r",APP__s32MoveValue);
+    printf("My Favorite Number is: %d\n\r",u8Register);
    
    
     s32LocalValue = APP__s32GetFavortiteNumber();
