@@ -7,11 +7,11 @@
 			"command": "gcc",
 			"args": [
 				"-g",
-				"Source/main.c",//"${file}",
-				"Source/app.c",//"${file}",
-				"Source/isolated.c",//"${file}",
+				"${workspaceFolder}/Generic/Source/main.c",//"${file}",
+				"${workspaceFolder}/Generic/Source/app.c",//"${file}",
+				"${workspaceFolder}/Generic/Source/isolated.c",//"${file}",
 				"-o",
-				"exe/AdvancedC"//"${fileDirname}/${fileBasenameNoExtension}"
+				"${workspaceFolder}/Generic/exe/AdvancedC"//"${fileDirname}/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"

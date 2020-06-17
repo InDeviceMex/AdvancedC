@@ -3,9 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/Header/**",
-                "${workspaceFolder}/Source/**"
+                "${workspaceFolder}/Generic**",
+                "${workspaceFolder}/Generic/Header/**",
+                "${workspaceFolder}/Generic/Source/**"
             ],
             "defines": [
                 "_DEBUG",
